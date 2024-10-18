@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# Django
+/media/
+*.log
+local_settings.py
+
+# Node / React
+node_modules/
+yarn-error.log
+.env
+build/
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# NGINX
+nginx/nginx.conf.swp  # Temporary swap files
+
+# OS / IDE Specific
+.DS_Store           # macOS
+Thumbs.db           # Windows
+.idea/              # JetBrains IDEs
+.vscode/            # Visual Studio Code
+
+# GitHub Actions Cache
+.github/workflows/*.swp  # Avoid committing temporary files
